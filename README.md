@@ -1,11 +1,36 @@
-# Yonsei-KIST NeRF (Accepted to ICCV 2023 workshop)
+<h2 align="center">O-TensoRF: Mitigating Floating Artifacts through Imposing Occlusion Regularization</h2>
 
-[VSCHH 2023: A Benchmark for the View Synthesis Challenge of Human Heads](https://openaccess.thecvf.com/ICCV2023_workshops/RHWC)
+<p align="center">
+<a href="https://github.com/sandokim"><strong>Hyeseong Kim</strong></a>
+·
+<a href=""><strong>Jungbin Cho</strong></a>
+·
+<a href=""><strong>Deukhee Lee</strong></a>
+·
+<a href=""><strong>Dosik Hwnag</strong></a>
+</p>
+<h3 align="center">ICCV 2023</h3>
 
-**Hyeseong Kim**, Jungbin Cho, Dosik Hwang, Deukhee Lee
+<p align="center">
+  <a href="https://sandokim.github.io/o-tensorf/">
+    <img src="https://img.shields.io/badge/Project-Page-blue?style=flat&logo=googlechrome&logoColor=white" alt="Project Page">
+  </a>
+  <a href="https://openaccess.thecvf.com/ICCV2023_workshops/RHWC">
+    <img src="https://img.shields.io/badge/arXiv-2601.10200-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv">
+  </a>
+</p>
 
-## Mitigating Floating Artifacts through Imposing Occlusion Regularization and Backview Exclusion
-To surpass the TensoRF baseline performance, we introduce occlusion regularization to reduce the floating artifacts commonly encountered in few-shot neural rendering tasks. The key idea of this regularization term is to penalize the density fields near the camera. Additionally, we find it beneficial to exclude all the backside views in the preprocessing step to avoid floating artifacts. This regularization significantly improves the baseline method. Our implementation leverages the [FreeNeRF](https://github.com/Jiawei-Yang/FreeNeRF) codebase to incorporate the occlusion regularization.
+<figure align="center">
+  <img src="media/our_overview.jpg" width="100%">
+  <figcaption>
+   We introduce occlusion regularization to reduce the floating artifacts commonly encountered in few-shot neural rendering tasks. The key idea of this regularization term is to penalize the density fields near the camera. Additionally, we find it beneficial to exclude all the backside views in the preprocessing step to avoid floating artifacts.
+  </figcaption>
+</figure>
+
+<p></p>
+
+Official implementation of the ICCV 2023 workshop paper, 
+"O-TensoRF: Mitigating Floating Artifacts through Imposing Occlusion Regularization".
 
 ## Installation
 
