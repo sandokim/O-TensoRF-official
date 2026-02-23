@@ -20,12 +20,11 @@
   </a>
 </p>
 
-<figure align="center">
-  <img src="media/our_overview.jpg" width="100%">
-  <figcaption>
-   We introduce occlusion regularization to reduce the floating artifacts commonly encountered in few-shot neural rendering tasks. The key idea of this regularization term is to penalize the density fields near the camera. Additionally, we find it beneficial to exclude all the backside views in the preprocessing step to avoid floating artifacts.
-  </figcaption>
-</figure>
+<p align="center">
+  <img src="media/our_overview.jpg" width="70%">
+</p>
+
+We introduce occlusion regularization to reduce the floating artifacts commonly encountered in few-shot neural rendering tasks. The key idea of this regularization term is to penalize the density fields near the camera. Additionally, we find it beneficial to exclude all the backside views in the preprocessing step to avoid floating artifacts.
 
 <p></p>
 
